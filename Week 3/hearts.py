@@ -1,5 +1,4 @@
-heart_deck = [] #card number list
-total_heart = [] #total face and number cards
+heart_deck = [] #total card number list
 count = 0 
 card = 2
 #initialize all variables
