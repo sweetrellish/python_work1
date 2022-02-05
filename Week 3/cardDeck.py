@@ -2,6 +2,7 @@ from hearts import heart_deck
 from diamonds import diamond_deck
 from clubs import club_deck
 from spades import spade_deck
+from random import randrange
 #import all card types
 
 cardDeck = []
@@ -21,5 +22,11 @@ while count < 52:
     count += 1
 #print values of entire deck
 
+print("Here's your starting hand:\n")
+
+deal = 0
+while deal < 5:
+    print(cardDeck[randrange(52)])
+    deal += 1
 
 
