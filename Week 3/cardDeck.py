@@ -1,16 +1,16 @@
-import hearts
-import diamonds
-import clubs
-import spades
+from hearts import heart_deck
+from diamonds import diamond_deck
+from clubs import club_deck
+from spades import spade_deck
 #import all card types
 
 cardDeck = []
 plus = 0
 while plus < 13:
-    cardDeck.append(hearts.heart_deck[plus])
-    cardDeck.append(diamonds.diamond_deck[plus])
-    cardDeck.append(clubs.club_deck[plus])
-    cardDeck.append(spades.spade_deck[plus])
+    cardDeck.append(heart_deck[plus])
+    cardDeck.append(diamond_deck[plus])
+    cardDeck.append(club_deck[plus])
+    cardDeck.append(spade_deck[plus])
     plus += 1
 #assign values of types to entire deck list
 
