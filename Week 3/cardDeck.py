@@ -28,5 +28,6 @@ deal = 0
 while deal < 5:
     print(cardDeck[randrange(52)])
     deal += 1
+# deal hand of random cards from the deck
 
 

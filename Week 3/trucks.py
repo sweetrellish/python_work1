@@ -36,7 +36,7 @@ popped_truck = trucks.pop(0)
 #set variable equal to GMC, position 0 in list now
 print(trucks)
 
-print("I already a ", popped_truck, 'truck.')
+print("I already owned a ", popped_truck, 'truck.')
 #print statement using variable
 
 trucks.remove('Chevy')
