@@ -17,14 +17,12 @@ club_deck.insert(count+1, faceCards[1])
 club_deck.insert(count+2, faceCards[2])
 club_deck.insert(count+3, faceCards[3])
 
-#print(heart_deck)
-
-print("Here's a list of all the Club cards:")
-print_count = 0
-while print_count < 13:
-    print(club_deck[print_count])
-    print_count += 1
-#use while loop to print all elements of heart deck
+# print("Here's a list of all the Club cards:")
+# print_count = 0
+# while print_count < 13:
+#     print(club_deck[print_count])
+#     print_count += 1
+# #use while loop to print all elements of club deck
 
 #UNUSED CODE FROM HEARTS.PY
 # print("\nHere's a list of number cards:")

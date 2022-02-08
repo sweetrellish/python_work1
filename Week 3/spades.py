@@ -17,14 +17,12 @@ spade_deck.insert(count+1, faceCards[1])
 spade_deck.insert(count+2, faceCards[2])
 spade_deck.insert(count+3, faceCards[3])
 
-#print(heart_deck)
-
-print("Here's a list of all the Spade cards:")
-print_count = 0
-while print_count < 13:
-    print(spade_deck[print_count])
-    print_count += 1
-#use while loop to print all elements of heart deck
+# print("Here's a list of all the Spade cards:")
+# print_count = 0
+# while print_count < 13:
+#     print(spade_deck[print_count])
+#     print_count += 1
+# #use while loop to print all elements of spade deck
 
 #UNUSED CODE FROM HEARTS.PY
 # print("\nHere's a list of number cards:")
