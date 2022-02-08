@@ -1,4 +1,3 @@
-#if '__main__' == __name__:
 diamond_deck = [] #total card number list
 count = 0 
 card = 2
