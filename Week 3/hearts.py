@@ -26,11 +26,12 @@ while print_count < 13:
 #use while loop to print all elements of heart deck
 
 print("\nHere's a list of number cards:")
+print(faceCards[0])
 print2_count = 1
 while print2_count < 10:
     print(heart_deck[print2_count])
     print2_count += 1
-# while loop printing only number cards
+# while loop printing only number cards and Ace
 
 print("\nHere's all the face cards:")
 print3_count = 1

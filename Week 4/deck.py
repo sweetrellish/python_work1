@@ -81,9 +81,9 @@ while plus < 13:
     plus += 1
 #assign values of types to entire deck list
 
-print("\n\nHere's the entire deck:")
-count2 = 0 
-while count2 < 52:
-    print (cardDeck[count2])
-    count2 += 1
+print("Here's the entire deck:")
+count = 0 
+while count < 52:
+    print (cardDeck[count])
+    count += 1
 #print values of entire deck
