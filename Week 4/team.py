@@ -2,7 +2,7 @@ team = ['olivia', 'sam', 'lexi', 'grace', 'allison']
 #initialize team
 print("Here's a list of my team: ")
 for value in team:
-    print(value)
+    print(value.title())
 #print all team values
 print("Here are the first three players: ")
 for player in team[:3]:
