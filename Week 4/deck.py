@@ -88,7 +88,7 @@ while count < 52:
     count += 1
 #print values of entire deck
 
-print("Here are only the Spade cards:\n")
+print("\nHere are only the Spade cards:")
 for card in spade_deck[:]:
     print(card)
 #print statement for only the spade cards
