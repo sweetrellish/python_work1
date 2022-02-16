@@ -22,17 +22,22 @@ for card in heart_deck[:]:
     print(card)
 #for loop listing all values in heart_deck
 
+print("\nHere's a list of number cards:")
+for card in heart_deck[:10]:
+    print(card)
+#for loop printing number cards only
+
+print("\nHere's all the face cards:")
+for card in heart_deck[-3:]:
+    print(card)
+#for loop printing face cards
+
 #OLD CODE*****
 # print_count = 0
 # while print_count < 13:
 #     print(heart_deck[print_count])
 #     print_count += 1
 #use while loop to print all elements of heart deck
-
-print("\nHere's a list of number cards:")
-for card in heart_deck[:10]:
-    print(card)
-#for loop printing number cards only
 
 #OLD CODE*********
 # print(faceCards[0])
@@ -41,12 +46,6 @@ for card in heart_deck[:10]:
 #     print(heart_deck[print2_count])
 #     print2_count += 1
 # while loop printing only number cards and Ace
-
-print("\nHere's all the face cards:")
-for card in heart_deck[-3:]:
-    print(card)
-#for loop printing face cards
-
 
 #OLD CODE********
 # print3_count = 1
