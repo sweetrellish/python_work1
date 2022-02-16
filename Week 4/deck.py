@@ -82,13 +82,18 @@ while plus < 13:
 #assign values of types to entire deck list
 
 print("Here's the entire deck:")
-count = 0 
-while count < 52:
-    print (cardDeck[count])
-    count += 1
+for card in cardDeck[:]:
+    print(card)
+#for loop printing all cards in deck
+
+#OLD CODE*******
+# count = 0 
+# while count < 52:
+#     print (cardDeck[count])
+#     count += 1
 #print values of entire deck
 
 print("\nHere are only the Spade cards:")
-for card in spade_deck[:]:
-    print(card)
-#print statement for only the spade cards
+for card in range(3,52,4):
+    print(cardDeck[card])
+#for loop and range function used for printing only the spade cards in cardDeck
