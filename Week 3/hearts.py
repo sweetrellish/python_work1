@@ -18,10 +18,15 @@ heart_deck.insert(count+3, faceCards[3])
 #set values of faceCards
 
 print("Here's a list of all the Heart cards:")
-print_count = 0
-while print_count < 13:
-    print(heart_deck[print_count])
-    print_count += 1
+for card in heart_deck[:]:
+    print(card)
+#for loop listing all values in heart_deck
+
+#OLD CODE*****
+# print_count = 0
+# while print_count < 13:
+#     print(heart_deck[print_count])
+#     print_count += 1
 #use while loop to print all elements of heart deck
 
 print("\nHere's a list of number cards:")
