@@ -15,8 +15,7 @@ heart_deck.insert(0, faceCards[0])
 heart_deck.insert(count+1, faceCards[1])
 heart_deck.insert(count+2, faceCards[2])
 heart_deck.insert(count+3, faceCards[3])
-
-#print(heart_deck)
+#set values of faceCards
 
 print("Here's a list of all the Heart cards:")
 print_count = 0
