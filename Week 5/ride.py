@@ -1,4 +1,3 @@
-height = 0
 prompt = "Please enter your height in inches:\n"
 height = input(prompt)
 height = int(height)
