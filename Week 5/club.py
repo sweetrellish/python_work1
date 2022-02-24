@@ -5,7 +5,7 @@ computer_club = ['andy', 'greg', 'michael j.', 'fox', 'admin']
 for user in computer_club:
     if user == 'admin':
         print("Welcome Administrator!")
-    elif computer_club == ['']:
+    elif user == '':
         print("Seek out more members!")
     else:
         print(f"Welcome to the club, {user.title()}!")
