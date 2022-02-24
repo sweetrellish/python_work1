@@ -11,7 +11,7 @@ for user in new_ids:
     for name in current_ids:
         if user.title() == name.title():
             user = user.title()
-            print(f"The username {user} is taken, \nplease select another username.")
+            print(f"The username {user} is taken, please select another username.")
 #nested for loop to check for capitilization errors
 
 #OLD CODE****
