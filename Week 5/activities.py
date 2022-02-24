@@ -1,6 +1,7 @@
 favorite_activities = ['drawing', 'lifting', 'gaming']
 nfavorite_activity1 = 'cleaning'
 nfavorite_activity2 = 'running'
+#initialize all lists and not favorite activities
 
 if 'drawing' in favorite_activities:
     print("Drawing is one of my favorite activies.")
