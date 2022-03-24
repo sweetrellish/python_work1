@@ -1,6 +1,6 @@
-def describe_school(school, county= 'Wicomico County'):
+def describe_school(school, county= 'Wicomico'):
     """Prints school and county"""
-    print(f"{school} is in {county}.")
+    print(f"{school} is in {county} County.")
 
 describe_school('Parkside')
 describe_school('Bennett')

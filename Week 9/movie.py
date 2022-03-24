@@ -5,7 +5,7 @@ def make_movie(movie_name, movie_studio, runtime= None):
         movie_list['runtime'] = runtime
     return movie_list
 
-movie = make_movie('Thor:Ragnarok', 'Marvel', runtime = '3 hrs.')
+movie = make_movie('Thor: Ragnarok', 'Marvel', runtime = '3 hrs.')
 movie1 = make_movie('Men in Black', 'New Line Cinema')
 
 print(movie)
