@@ -4,9 +4,12 @@ def make_movie(movie_name, movie_studio, runtime= None):
     if runtime:
         movie_list['runtime'] = runtime
     return movie_list
+    #dictionary definition if statement to include runtime if passed
 
 movie = make_movie('Thor: Ragnarok', 'Marvel', runtime = '3 hrs.')
 movie1 = make_movie('Men in Black', 'New Line Cinema')
 
 print(movie)
 print(movie1)
+
+#function call in definition of movie and print movie
