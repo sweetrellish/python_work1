@@ -39,5 +39,7 @@ def deal_hand(deck, hand):
     for card in range(hand):
         print(deck.pop(card))
 
+from card_functions import build_deck
 
-
+deck = build_deck()
+deal_top_card(deck)

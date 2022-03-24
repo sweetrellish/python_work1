@@ -1,3 +1,4 @@
+#Some commented code is still in drafting and is used for experiment
 def build_deck():
     """Builds a deck with for loops and lists,
        And returns list of cards in order"""
@@ -41,7 +42,8 @@ def build_deck():
             clubs = f'{face[count3]} of Clubs'
             count3 += 1
         deck.append(clubs[:])
-            
+#for loops defining each card and suit
+#      
     # for card in deck:   
     #     print(card)
     return deck    
@@ -56,28 +58,36 @@ def get_suit(card):
         print('Clubs')
     if 'Diamonds' in  card:
         print('Diamonds')
+#returns suit of card
 
-def get_Value(card):
-    """Takes in card argument and returns number value of that card."""
-    face = ['Ace', 'Jack', 'Queen', 'King']
-    for num in range(2,11):
-        num = f'{num}'
-        if num in card:
-            print(num)
-    for value in face:
-        if value in card:
-            print(value)
-def same_Value(card1, card2, *card3):
+def same_Value(card1, card2, card3):
     """Takes number of cards and tests value equivalency of each card."""
-    for num in range(2,11):
-         num = f'{num}'
-         if num in card1 and num in card2 and num in card3:
-             print(num)
-             return True    
-        #  else:
-        #     print(False)
-        # if num in card3:
-        #     print(num)
+    def get_Value(card):
+        """Takes in card argument and returns number value of that card."""
+        face = ['Ace', 'Jack', 'Queen', 'King']
+        for num in range(2,11):
+            num = f'{num}'
+            if num in card:
+                #print(num)
+                return num
+                
+        for value in face:
+            if value in card:
+                #print(value)
+                return value
+    #returns value of card number
+
+    num1 = get_Value(card1)
+    num2 = get_Value(card2)
+    num3 = get_Value(card3)
+    if num1 == num2 and num2 == num3:
+        print('True')
+        return True
+    else :
+        print('False')
+        return False
+    #checks if card number values are equivalent
+    #Functions are nested so that get_Value can be called within the function to determine equivalency
 
 def same_Suit(card1, card2, card3):
     """Takes suit of cards and tests equivalency of each card."""
@@ -87,9 +97,26 @@ def same_Suit(card1, card2, card3):
             print(card)
         if card in card3:
             print(card)
+#checks if card suit values are equivalent
+
+def get_Value(card):
+        """Takes in card argument and returns number value of that card."""
+        face = ['Ace', 'Jack', 'Queen', 'King']
+        for num in range(2,11):
+            num = f'{num}'
+            if num in card:
+                print(num)
+                return num
+                
+        for value in face:
+            if value in card:
+                print(value)
+                return value
+    #returns value of card number
+
 
 # build_deck()
 # get_suit('2 of Hearts')
-# get_Value('Jack of Hearts')
-# same_Value('2 of Hearts', '2 of Spades', '3 of Clubs')
-# same_Suit('2 of Spades', '2 of Hearts', '2 of Hearts')
+get_Value('Jack of Hearts')
+same_Value('2 of Spaces', '2 of Hearts', '2 of Hearts')
+#same_Suit('2 of Spades', '2 of Hearts', '2 of Hearts')
