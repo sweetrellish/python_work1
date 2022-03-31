@@ -1,3 +1,4 @@
+"""Module containing class of University Athletics and Basketball"""
 class UniversityAthletics:
     """Stores Athletic information for University"""
     def __init__(self, university_name, sport):
