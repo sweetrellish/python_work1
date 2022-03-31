@@ -2,9 +2,9 @@ from UniversityAthletics import *
 
 athletics = UniversityAthletics('Salisbury University', 'Baseball')
 basketball = Basketball('Salisbury University', 'Basketball')
+
 print(athletics.university_name)
 print(athletics.sport)
-
 athletics.describe_athletics()
 athletics.in_season()
 
