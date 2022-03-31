@@ -1,4 +1,4 @@
-from UniversityAthletics import UniversityAthletics
+from athletics import *
 
 athletics = UniversityAthletics('Wor-Wic', 'Softball')
 athletics.describe_athletics()
