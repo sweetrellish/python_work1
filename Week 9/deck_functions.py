@@ -1,7 +1,9 @@
 def deal_top_card(deck):
     """Takes deck argument and returns top card value and removes from the deck"""
-    card = deck.pop(deck[0])
-    print(f'Here is the top card {card}')
+    card = deck.pop(0)
+    print(card)
+    return card
+    #print(f'Here is the top card {card}')
 
 def get_random_card(deck):
     """Given argument deck, returns random card in deck."""
@@ -9,18 +11,15 @@ def get_random_card(deck):
     num = randrange(52)
     card = deck.pop(num)
     print(card)
+    return card
 
 def shuffle_deck(deck):
     """Takes deck argument and returns shuffled deck."""
-    from random import randrange
-    # for card in deck:
-        # print(card)
-    for card in deck:
-        num = randrange(52)
-        card = deck[num]
-        # print(card)
+    import random
+    random.shuffle(deck)
+    return deck
 
-def deal_hands(deck, hand_num, hands):
+def deal_hands(deck, hand_num, hands = 1):
     """Takes deck, hand amount and number of hands and returns the hands."""
     wcount = 0
     fcount = 0
@@ -33,13 +32,24 @@ def deal_hands(deck, hand_num, hands):
             fcount += 1
         wcount += 1
     return new_hand
+    
 
 def deal_hand(deck, hand):
     """Takes argument for one hand only and returns hand."""
+    #print("Here is your starting hand:\n")
+    new_hand =[]
     for card in range(hand):
-        print(deck.pop(card))
+        new_hand.append(deck.pop(card))
+        print(new_hand[card])
+    return new_hand
 
 from card_functions import build_deck
 
 deck = build_deck()
-deal_top_card(deck)
+shuffle_deck(deck)
+# deal_top_card(deck)
+# get_random_card(deck)
+#deal_hand(deck, 7)
+#deal_hands(deck, 7)
+
+#All functions are working as needed 3/24/22
