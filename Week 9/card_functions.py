@@ -118,7 +118,7 @@ def get_Value(card):
 # build_deck()
 # get_suit('2 of Hearts')
 # get_Value('Jack of Hearts')
-# same_Value('2 of Spaces', '2 of Hearts', '2 of Hearts')
+# same_Value('2 of Spaces', '2 of Hearts', '')
 # same_Suit('2 of Hearts', '2 of Hearts', '2 of Hearts')
 
 #All functions are working as needed 3/24/2022
