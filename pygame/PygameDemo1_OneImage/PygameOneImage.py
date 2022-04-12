@@ -27,7 +27,7 @@ while True:
             sys.exit()
         
     window.fill(BLACK)
-    window.blit(ballImage, (100,200))
+    window.blit(ballImage, (0,0))
     pygame.display.update()
     
     clock.tick(FRAMES_PER_SECOND)
