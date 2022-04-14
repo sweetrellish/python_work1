@@ -65,8 +65,16 @@ while True:             #game loop
        except ValueError:
             print('Card not in hand...')                                                  #exception block for error message
 
-    if prompt == 4 or user == '' or deck == '' or comp == '':                             #loop exit conditions
+    if prompt == 4:                             #loop exit conditions
         break
+    elif user(0) == '':
+        break
+    elif deck(0) == '':
+        break
+    elif comp(0) == '':
+        break
+
+
     
 
 
