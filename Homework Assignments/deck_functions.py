@@ -53,6 +53,12 @@ def hand_pairs(hand1, hand2):
     else:
         print('You have no pairs.\n')
     return pair
+def empty_hand(hand):
+    """Tests whether a hand is empty"""
+    if hand:
+        return False
+    else:
+        return True
 
 #TEST CODE
 # from card_functions import build_deck

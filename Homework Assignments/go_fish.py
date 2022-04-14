@@ -2,6 +2,8 @@ import random
 import deck_functions
 import card_functions
 
+table = {}
+table_image = f'\tTABLE\n-------------------------\n|{table}\t\t\n-------------------------\n'
 deck = card_functions.build_deck()
 deck_functions.shuffle_deck(deck)
 #create deck and shuffle
@@ -67,11 +69,11 @@ while True:             #game loop
 
     if prompt == 4:                             #loop exit conditions
         break
-    elif user(0) == '':
+    elif deck_functions.empty_hand(user):
         break
-    elif deck(0) == '':
+    elif deck_functions.empty_hand(deck):
         break
-    elif comp(0) == '':
+    elif deck_functions.empty_hand(comp):
         break
 
 
