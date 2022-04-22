@@ -46,6 +46,7 @@ def get_Value(card):
 #TEST CODE
 
 # deck = build_deck()
+# print(same_Value('2♣', '2♣'))
 # print(deck)
 # suit = get_suit('2♣')
 # print(suit)
