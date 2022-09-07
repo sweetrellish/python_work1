@@ -40,17 +40,18 @@ def deal_hand(deck, hand):
 
 def hand_pairs(hand1, hand2):
     """Takes in 2 hand arguments and checks for pairs"""
-    pair =[]      
+    pair =[]   
 
-    for cards in hand1:                      #nested for loop to check value and ensure true pair, could act as method for handPairs(), adds to pair list and removes from hand
-        for clone in hand2:              
+    for i, cards in enumerate(hand1):                      #nested for loop to check value and ensure true pair, could act as method for handPairs(), adds to pair list and removes from hand
+        for j, clone in enumerate(hand2):              
                 if card_functions.get_Value(cards) == card_functions.get_Value(clone) and card_functions.get_suit(cards) != card_functions.get_suit(clone):
+                    hand1.pop(i)
+                    hand2.pop(j)
+                    if cards in pair and clone in pair:
+                        break
                     pair.append(cards)
                     pair.append(clone)
-                    hand1.remove(cards)
-                    hand2.remove(clone)
-                    # hand1.remove(cards)
-                    # hand1.remove(clone)
+                    
                     print(f"Storing {cards, clone} into pairs...")  
                 
     if pair:

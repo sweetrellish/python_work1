@@ -130,32 +130,32 @@ while True:             #game loop
             print(ctable_image)
 
 
-        elif fish in comp:
-            user_ans = input(f'Do you have a {fish}? y/n\n')
-            try:
-                if user_ans == 'y':             
-                    for fishes in user:
-                        if card_functions.same_Value(user, fishes):            
-                            cimage.append(fishes)
-                            comp.append(fishes)                                  #if card is in computers hand (has same value), adds card to hand
-                            comp_clones.append(fishes)
-                            comp_table[f'Pair {ccount}'] = fishes               #takes card from computers hand, could be made to method()
-                            user.remove(fishes)                                  #adds to user hand and clone, adds pair to table, removes from computer hand
-                            deck_functions.hand_pairs(comp, comp_clones)         #checks for pairs and prints hands
-                            ccount += 1
-                            cturn += 1
-                            computer_turn = False
+        # elif fish in comp:
+        #     user_ans = input(f'Do you have a {fish}? y/n\n')
+        #     try:
+        #         if user_ans == 'y':             
+        #             for fishes in user:
+        #                 if card_functions.same_Value(user, fishes):            
+        #                     cimage.append(fishes)
+        #                     comp.append(fishes)                                  #if card is in computers hand (has same value), adds card to hand
+        #                     comp_clones.append(fishes)
+        #                     comp_table[f'Pair {ccount}'] = fishes               #takes card from computers hand, could be made to method()
+        #                     user.remove(fishes)                                  #adds to user hand and clone, adds pair to table, removes from computer hand
+        #                     deck_functions.hand_pairs(comp, comp_clones)         #checks for pairs and prints hands
+        #                     ccount += 1
+        #                     cturn += 1
+        #                     computer_turn = False
 
-                elif user_ans == 'n':
-                    print('Go-Fish!')
-                    comp.append(deck_functions.deal_top_card(deck))
-                    print(f'\tHAND\n{user}')
-                    print(f'\tCOMPUTER HAND\n{comp}')
-                    cturn += 1
-                    computer_turn = False
+        #         elif user_ans == 'n':
+        #             print('Go-Fish!')
+        #             comp.append(deck_functions.deal_top_card(deck))
+        #             print(f'\tHAND\n{user}')
+        #             print(f'\tCOMPUTER HAND\n{comp}')
+        #             cturn += 1
+        #             computer_turn = False
 
-            except ValueError:
-                pass
+        #     except ValueError:
+        #         pass
 
         if comp:
             choice = deck_functions.hand_random_card(comp)
@@ -216,3 +216,70 @@ for key in table:
     print(key)
 
     
+
+
+#OLD CODE 4/13/2022
+
+# for cards in user:                      #nested for loop to check value and ensure true pair, could act as method for handPairs(), adds to pair list and removes from hand
+#     for clone in clones:                
+#         if card_functions.get_Value(cards) == card_functions.get_Value(clone) and card_functions.get_suit(cards) != card_functions.get_suit(clone):
+#             pair.append(cards)
+#             pair.append(clone)
+#             user.remove(cards)
+#             user.remove(clone)
+#             print(f"Storing {cards, clone} into pairs...")
+
+# if pair:
+#     print(f'Pairs: {pair}\n')
+# else:
+#     print('You have no pairs.\n')
+
+
+# print("\n-----Here is the Computer's hand-----")
+# comp = deck_functions.deal_hand(deck, 7)
+# print(comp)
+
+# print("\nSearching for pairs now...")
+# clone = user.copy()
+# user.sort()
+
+# pair = []
+
+# for num in range(7):
+#     if card_functions.get_Value(user[num]) in clone[num]:
+#         pair.append(user[num])
+
+# if pair:
+#     print(f'You have a pair of {pair}')
+# else:
+#     print('You have no pairs.')
+
+# while uwin == 0 or cwin == 0:
+#     menu = "-----Action Menu-----\n1)\tDraw a card \n2)\tPlay a pair\n3)\tAsk for a card\n4)\tGo-Fish!"
+#     prompt = input(f'{menu}\nEnter your selection: ')
+#     prompt = int(prompt)
+#     if prompt == 1:
+#         new_card = deck_functions.deal_top_card(deck)
+#         user.append(new_card)
+#     elif prompt == 2:
+#         for card in pair:
+#             table = pair.pop(card)
+#             user.pop(card)
+#             print(f'You have played {table[card]}')
+#     elif prompt == 3:
+#         query = input("What card do you want to ask for?\nEnter the exact card:")
+#         print(f'Do you have a {query}?')
+#         for card in comp:
+#             if query in card:
+#                 ccard = comp.pop(f'{card}')
+#                 user.append(ccard)
+#     elif prompt == 4:
+#         print('Go-Fish!')
+        
+#     if user == None:
+#         uwin += 1
+#     elif comp == None:
+#         cwin += 1
+
+        
+
