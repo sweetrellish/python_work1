@@ -1,0 +1,141 @@
+<mxfile host="65bd71144e">
+    <diagram id="6tw4eTdIJRRCjn9GvuFW" name="Page-1">
+        <mxGraphModel dx="1028" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;ol id=&quot;DXLCZTA1CMGJUGMLH677&quot; class=&quot;decimal shortanswer&quot; style=&quot;box-sizing: border-box; line-height: 1.8; color: rgb(87, 87, 87); padding: 0px 0px 0px 40px; clear: left; margin: 0px 0px 11px; list-style-type: decimal; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;li id=&quot;GEFHZQ3CUVHWPBDKJ833&quot; style=&quot;box-sizing: border-box ; font-family: , &amp;quot;cambria&amp;quot; , &amp;quot;times new roman&amp;quot; , &amp;quot;times&amp;quot; , serif ; line-height: 1.6 ; color: rgb(87 , 87 , 87) ; margin: 0px 0px 10px ; padding: 0px ; list-style: decimal&quot;&gt;&lt;p id=&quot;ARDMYFCQ7C0UY9UQR667&quot; style=&quot;box-sizing: border-box ; font-family: , &amp;quot;cambria&amp;quot; , &amp;quot;times new roman&amp;quot; , &amp;quot;times&amp;quot; , serif ; line-height: 1.6 ; color: rgb(87 , 87 , 87) ; margin: 0px ; padding: 0px&quot;&gt;Create the logic for an application that contains an array of 10 multiple-choice questions related to your favorite hobby. Each question contains three answer choices. Also create a parallel array that holds the correct answer to each question—A, B, or C. Display each question and verify that the user enters only A, B, or C as the answer—if not, keep prompting the user until a valid response is entered. If the user responds to a question correctly, display&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box ; font-style: italic&quot;&gt;Correct!&lt;/em&gt;; otherwise, display&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: border-box ; font-style: italic&quot;&gt;The correct answer&lt;/em&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;is and the letter of the correct answer. After the user answers all the questions, display the number of correct and incorrect answers.&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry y="20" width="550" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="360" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="4" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Declarations&lt;br&gt;&lt;br&gt;string multiple[10] = {'blah', 'blah', 'blah', 'blah', 'blah', 'blah', 'blah', 'blah', 'blah', 'blah'}&lt;br&gt;sting answers[10] = {'A', 'A', 'A', 'A', 'A', 'A','A','A','A', 'A'}&lt;br&gt;num correct = 0&lt;br&gt;num incorrect = 0&lt;br&gt;num count = 0&lt;br&gt;string answer = &quot; &quot;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="450" width="120" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="6" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="6" target="19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="count &amp;lt; 10" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="730" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="8" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="output multiple[count]" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="740" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="10" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="input answer" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="740" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="12" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="12" target="28">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="925" y="700" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="answer == answers[count]" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="870" y="730" width="110" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="14" target="16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="output &quot;Correct!&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="1010" y="740" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="16">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1215" y="710" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="correct += 1&lt;br&gt;count += 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1155" y="740" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="750" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="19" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="output &quot;You guessed correctly &quot;, correct, &quot;times and incorrectly &quot;, incorrect, &quot;times.&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="900" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="365" y="810" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="22" target="24">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="output &quot;end of program&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="1040" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="stop" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="1180" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="28" target="33">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="28" target="35">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="answer == 'A' OR answer == 'B' OR answer == 'C'" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="840" y="600" width="170" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="880" y="720" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="960" y="750" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1220" y="710" as="sourcePoint"/>
+                        <mxPoint x="370" y="710" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="33" target="37">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="output &quot;Enter valid input&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="615" y="610" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="35" target="40">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="output &quot;You guessed incorrectly&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="865" y="490" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="37">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="370" y="710" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="count = 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="610" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="40">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="370" y="710" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" value="incorrect += 1&lt;br&gt;count += 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="665" y="490" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

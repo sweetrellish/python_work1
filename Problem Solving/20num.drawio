@@ -21,7 +21,7 @@
                         <mxPoint x="370" y="420" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="8" value="output &quot;Enter a number or &quot;, QUIT,, &quot;to quit.&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="8" value="output &quot;Enter a number &quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
                     <mxGeometry x="310" y="320" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="15" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="13" target="14">
@@ -43,7 +43,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="14" value="user &amp;lt;&amp;gt; QUIT" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="14" value="counter &amp;lt; SIZE" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="330" y="550" width="80" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="21" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="16" target="20">
@@ -61,7 +61,7 @@
                 <mxCell id="23" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="20" target="22">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="output &quot;Enter another number or &quot;, QUIT, &quot;to quit. &quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                <mxCell id="20" value="output &quot;Enter another number&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
                     <mxGeometry x="610" y="560" width="150" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="24" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="22">
