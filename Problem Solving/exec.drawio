@@ -1,0 +1,13 @@
+<mxfile host="65bd71144e">
+    <diagram id="wWpD3vcy30MrAJYR1Iev" name="Page-1">
+        <mxGraphModel dx="276" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: georgia, times, &amp;quot;times new roman&amp;quot;, serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;Executive Training School offers typing classes. Each final exam evaluates a student's typing speed and the number of typing errors made. Develop the logic for a program that produces a summary table of each examination's results. Each row represents the number of students whose typing speed falls within the following ranges of words per minute: 0-19, 20-39, 40-69, and 70 or more. Each column represents the number of students who made different numbers of typing errors -0 through 6 or more.&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="140" width="550" height="120" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

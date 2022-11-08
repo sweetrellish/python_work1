@@ -1,0 +1,13 @@
+<mxfile host="65bd71144e">
+    <diagram id="MyMiQD-wIvMdwpneb1IO" name="Page-1">
+        <mxGraphModel dx="276" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: georgia, times, &amp;quot;times new roman&amp;quot;, serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;Le Chef Heureux Restaurant has 20 tables that can be reserved at 5 p.m., 7 p.m., or 9 p.m. Design a program that accepts reservations for specific tables at specific times; the user enters the number of customers, the table number, and the time. Do not allow more than four guests per table or invalid table numbers or times. If an attempt is made to reserve a table already taken, reprompt the user. Continue to accept reservations until the user enters a sentinel value or all slots are filled. Then display all empty tables in each time slot.&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="70" width="550" height="120" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
