@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="ND9Dwz4dW5dglDOfvsus" name="Page-1">
-        <mxGraphModel dx="1661" dy="2382" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1641" dy="1642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -13,34 +13,34 @@
                 <mxCell id="5" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="6" target="8">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="Declarations&lt;br&gt;&lt;br&gt;num SIZE&amp;nbsp; = 15&lt;br&gt;num words[SIZE]&lt;br&gt;num x&amp;nbsp;&lt;br&gt;num y&amp;nbsp;&lt;br&gt;num temp&lt;br&gt;num COMPS = SIZE -1" style="whiteSpace=wrap;html=1;strokeWidth=2;align=left;" vertex="1" parent="1">
+                <mxCell id="6" value="Declarations&lt;br&gt;&lt;br&gt;num SIZE&amp;nbsp; = 18&lt;br&gt;num boxesSIZE]&lt;br&gt;num x&amp;nbsp;&lt;br&gt;num y&amp;nbsp;&lt;br&gt;num temp&lt;br&gt;num COMPS = SIZE -1&lt;br&gt;num mean&amp;nbsp;&lt;br&gt;num median" style="whiteSpace=wrap;html=1;strokeWidth=2;align=left;" vertex="1" parent="1">
                     <mxGeometry x="220" y="160" width="140" height="160" as="geometry"/>
                 </mxCell>
                 <mxCell id="7" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="8" target="10">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="getWords()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="8" value="boxSales()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;strokeWidth=2;" vertex="1" parent="1">
                     <mxGeometry x="230" y="380" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="9" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="10" target="12">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="sortWords()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="10" value="sortSales()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;strokeWidth=2;" vertex="1" parent="1">
                     <mxGeometry x="230" y="520" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="12" target="13">
+                <mxCell id="105" value="" style="edgeStyle=none;html=1;fontSize=14;" edge="1" parent="1" source="12" target="104">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="displayWords()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="12" value="displaySales()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;strokeWidth=2;" vertex="1" parent="1">
                     <mxGeometry x="230" y="660" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="13" value="stop" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="230" y="800" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="230" y="990" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="14" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="15" target="17">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="getWords()" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="15" value="boxSales()" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="50" y="80" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="16" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="17" target="21">
@@ -69,13 +69,13 @@
                 <mxCell id="23" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="24" target="26">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" value="output &quot;Enter a word&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                <mxCell id="24" value="output &quot;Enter number of boxes sold for Girl Scout &quot; x+1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
                     <mxGeometry x="-180" y="430" width="190" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="25" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="26" target="28">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="26" value="input words[x]" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                <mxCell id="26" value="input boxes[x]" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
                     <mxGeometry x="-145" y="340" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="27" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="28">
@@ -92,7 +92,7 @@
                 <mxCell id="30" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="31" target="33">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" value="sortWords()" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="31" value="sortSales()" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
                     <mxGeometry x="430" y="70" width="100" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="32" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="33" target="36">
@@ -157,7 +157,7 @@
                 <mxCell id="50" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="51" target="56">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="51" value="words[x] &amp;gt; words[x+1]" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="51" value="boxes[x] &amp;gt; boxes[x+1]" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
                     <mxGeometry x="760" y="430" width="80" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="52" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -194,7 +194,7 @@
                 <mxCell id="60" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="61" target="63">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="61" value="displayWords()" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="61" value="displaySales()" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="430" y="680" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="62" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="63" target="66">
@@ -221,7 +221,7 @@
                 <mxCell id="69" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="70" target="72">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="70" value="output words[x]" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                <mxCell id="70" value="output boxes[x]" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
                     <mxGeometry x="590" y="930" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="71" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="72">
@@ -237,6 +237,110 @@
                 </mxCell>
                 <mxCell id="74" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: georgia, times, &amp;quot;times new roman&amp;quot;, serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;Girl Scout Troop 815 has 18 members. Write a program in which the troop leader can enter the number of boxes of cookies sold by each scout, and output the total number of boxes sold and the mean and median values.&lt;/span&gt;&lt;br style=&quot;color: rgb(51, 51, 51); font-family: georgia, times, &amp;quot;times new roman&amp;quot;, serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="-160" y="-90" width="550" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="76" target="78">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="swap()" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="580" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="78" target="79">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="temp = boxes[x+1]&lt;br&gt;boxes[x+1] = boxes[x]&lt;br&gt;boxes[x] = temp" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="680" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="return" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="820" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="" style="edgeStyle=none;html=1;fontSize=24;" edge="1" parent="1" source="80" target="81">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="mean()" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-150" y="510" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="" style="edgeStyle=none;html=1;fontSize=24;" edge="1" parent="1" source="81" target="83">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="x = 0&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-150" y="590" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="" style="edgeStyle=none;html=1;fontSize=24;" edge="1" parent="1" source="83" target="85">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="" style="edgeStyle=none;html=1;fontSize=14;" edge="1" parent="1" source="83" target="91">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="x &amp;lt; SIZE" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-130" y="720" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="" style="edgeStyle=none;html=1;fontSize=24;" edge="1" parent="1" source="85" target="87">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="mean += boxes[x]" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-310" y="730" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=24;" edge="1" parent="1" source="87">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-90" y="680.3076923076924" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="87" value="x += 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-310" y="650" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="&lt;font style=&quot;font-size: 14px&quot;&gt;YES&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;" vertex="1" parent="1">
+                    <mxGeometry x="-160" y="730" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="" style="edgeStyle=none;html=1;fontSize=14;" edge="1" parent="1" source="91" target="106">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="mean = mean / SIZE" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-150" y="840" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="return" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-150" y="1030" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="-90" y="800" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="" style="edgeStyle=none;html=1;fontSize=14;" edge="1" parent="1" source="96" target="97">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="median()" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="-490" y="510" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="" style="edgeStyle=none;html=1;fontSize=14;" edge="1" parent="1" source="97" target="101">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="temp = SIZE / 2&lt;br&gt;median = boxes[temp]" style="whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="-490" y="650" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="return" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="-490" y="860" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="" style="edgeStyle=none;html=1;fontSize=14;" edge="1" parent="1" source="101" target="99">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="output median" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="-490" y="740" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="" style="edgeStyle=none;html=1;fontSize=14;" edge="1" parent="1" source="104" target="109">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="mean()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="770" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="" style="edgeStyle=none;html=1;fontSize=14;" edge="1" parent="1" source="106" target="93">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="output mean" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="-150" y="930" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="" style="edgeStyle=none;html=1;fontSize=14;" edge="1" parent="1" source="109" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="median()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="860" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
