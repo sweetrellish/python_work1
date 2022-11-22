@@ -1,0 +1,37 @@
+<mxfile host="65bd71144e">
+    <diagram id="_HVxjKGLnnaSH7rcED9N" name="Page-1">
+        <mxGraphModel dx="593" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: georgia, times, &amp;quot;times new roman&amp;quot;, serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;Identify three objects that might belong to each of the following classes:&lt;/span&gt;&lt;br style=&quot;color: rgb(51, 51, 51); font-family: georgia, times, &amp;quot;times new roman&amp;quot;, serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br style=&quot;color: rgb(51, 51, 51); font-family: georgia, times, &amp;quot;times new roman&amp;quot;, serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: georgia, times, &amp;quot;times new roman&amp;quot;, serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;a. Author&lt;/span&gt;&lt;br style=&quot;color: rgb(51, 51, 51); font-family: georgia, times, &amp;quot;times new roman&amp;quot;, serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br style=&quot;color: rgb(51, 51, 51); font-family: georgia, times, &amp;quot;times new roman&amp;quot;, serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: georgia, times, &amp;quot;times new roman&amp;quot;, serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;b. RaceHorse&lt;/span&gt;&lt;br style=&quot;color: rgb(51, 51, 51); font-family: georgia, times, &amp;quot;times new roman&amp;quot;, serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br style=&quot;color: rgb(51, 51, 51); font-family: georgia, times, &amp;quot;times new roman&amp;quot;, serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: georgia, times, &amp;quot;times new roman&amp;quot;, serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;c. Country&lt;/span&gt;&lt;br style=&quot;color: rgb(51, 51, 51); font-family: georgia, times, &amp;quot;times new roman&amp;quot;, serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br style=&quot;color: rgb(51, 51, 51); font-family: georgia, times, &amp;quot;times new roman&amp;quot;, serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: georgia, times, &amp;quot;times new roman&amp;quot;, serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;d. RetailPurchase&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="80" width="470" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Poet, Playwright, Novelist" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="280" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="A)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="65" y="270" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Stallion, Wild Horse, Black Horse" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="370" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="B)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="65" y="360" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="America, Canada, Mexico&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="460" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="C)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="65" y="470" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Electronics, Housewares, Clothing" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="560" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="D)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="65" y="560" width="30" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
