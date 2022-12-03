@@ -1,0 +1,37 @@
+<mxfile host="65bd71144e">
+    <diagram id="J_u7hf5nX_nk0qVetW2i" name="Page-1">
+        <mxGraphModel dx="1028" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: georgia, times, &amp;quot;times new roman&amp;quot;, serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;Complete the following tasks:&lt;/span&gt;&lt;br style=&quot;color: rgb(51, 51, 51); font-family: georgia, times, &amp;quot;times new roman&amp;quot;, serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br style=&quot;color: rgb(51, 51, 51); font-family: georgia, times, &amp;quot;times new roman&amp;quot;, serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: georgia, times, &amp;quot;times new roman&amp;quot;, serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;a. Create a class for a cell phone service named Message that includes a field for the price of the message. Create get and set methods for the field.&lt;/span&gt;&lt;br style=&quot;color: rgb(51, 51, 51); font-family: georgia, times, &amp;quot;times new roman&amp;quot;, serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br style=&quot;color: rgb(51, 51, 51); font-family: georgia, times, &amp;quot;times new roman&amp;quot;, serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: georgia, times, &amp;quot;times new roman&amp;quot;, serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;b. Derive three subclasses-VoiceMessage, TextMessage, and PictureMessage. The VoiceMessage class includes a numeric field to hold the length of the message in minutes and a get and set method for the field. When a VoiceMessage's length value is set, the price is calculated at 4 cents per minute. The TextMessage class includes a numeric field to hold the length of the message in words and a get and set method for the field. When a TextMessage's length value is set, the price is calculated at 2 cents per word. The PictureMessage class includes a numeric field that holds the size of the picture in kilobytes and get and set methods for the field. When a PictureMessage's length value is set, the price is calculated at 1 cent per kilobyte.&lt;/span&gt;&lt;br style=&quot;color: rgb(51, 51, 51); font-family: georgia, times, &amp;quot;times new roman&amp;quot;, serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br style=&quot;color: rgb(51, 51, 51); font-family: georgia, times, &amp;quot;times new roman&amp;quot;, serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: georgia, times, &amp;quot;times new roman&amp;quot;, serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;c. Design a program that instantiates one object of each of the three classes, and demonstrate using all the methods defined for each class.&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="200" width="550" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Class Message&lt;br&gt;&amp;nbsp; &amp;nbsp;Declarations&lt;br&gt;&amp;nbsp; &amp;nbsp;private num price&lt;br&gt;&lt;br&gt;public void setPrice(num pric)&lt;br&gt;&amp;nbsp; &amp;nbsp;price = pric&lt;br&gt;return&lt;br&gt;&lt;br&gt;public num getPrice()&lt;br&gt;return price" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="520" width="350" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Message" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="520" width="340" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="price : num" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="580" width="340" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="setPrice(pric : num) : void&lt;br&gt;getPrice() : num" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="650" width="340" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="A)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="520" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="10" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="B)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="955" y="190" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Class&amp;nbsp;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="1020" y="170" width="240" height="180" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
