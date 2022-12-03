@@ -8,16 +8,16 @@
                     <mxGeometry x="330" y="200" width="550" height="260" as="geometry"/>
                 </mxCell>
                 <mxCell id="5" value="Class Message&lt;br&gt;&amp;nbsp; &amp;nbsp;Declarations&lt;br&gt;&amp;nbsp; &amp;nbsp;private num price&lt;br&gt;&lt;br&gt;public void setPrice(num pric)&lt;br&gt;&amp;nbsp; &amp;nbsp;price = pric&lt;br&gt;return&lt;br&gt;&lt;br&gt;public num getPrice()&lt;br&gt;return price" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="680" y="520" width="350" height="250" as="geometry"/>
+                    <mxGeometry x="510" y="520" width="200" height="160" as="geometry"/>
                 </mxCell>
                 <mxCell id="6" value="Message" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="330" y="520" width="340" height="60" as="geometry"/>
+                    <mxGeometry x="330" y="520" width="160" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="7" value="price : num" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="330" y="580" width="340" height="70" as="geometry"/>
+                    <mxGeometry x="330" y="580" width="160" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="8" value="setPrice(pric : num) : void&lt;br&gt;getPrice() : num" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="330" y="650" width="340" height="120" as="geometry"/>
+                    <mxGeometry x="330" y="650" width="160" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="9" value="A)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
                     <mxGeometry x="290" y="520" width="30" height="20" as="geometry"/>
@@ -26,10 +26,19 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="10" value="B)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="955" y="190" width="30" height="20" as="geometry"/>
+                    <mxGeometry x="670" y="822.5" width="30" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="Class&amp;nbsp;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="1020" y="170" width="240" height="180" as="geometry"/>
+                <mxCell id="11" value="Class VoiceMessage inheritsFrom Message&lt;br&gt;&amp;nbsp; &amp;nbsp;Declarations&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; private num length&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;br&gt;public void setLength(num len)&lt;br&gt;&amp;nbsp; &amp;nbsp;length = len&lt;br&gt;&amp;nbsp; &amp;nbsp;price += length * 0.04&lt;br&gt;return&lt;br&gt;&lt;br&gt;public num getLenght()&lt;br&gt;return length&lt;br&gt;endClass&lt;br&gt;&lt;br&gt;Class TextMessage inheritsFrom Message&lt;br&gt;&amp;nbsp; &amp;nbsp;Declarations&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; private num words&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br&gt;public void setWords(num word)&lt;br&gt;&amp;nbsp; &amp;nbsp;words = word&lt;br&gt;&amp;nbsp; &amp;nbsp;price += words * 0.02&lt;br&gt;return&lt;br&gt;&lt;br&gt;public num getWords()&lt;br&gt;return words&lt;br&gt;endClass&lt;br&gt;&lt;br&gt;Class PictureMessage inheritsFrom Message&lt;br&gt;&amp;nbsp; &amp;nbsp;Declarations&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; private num size&lt;br&gt;&lt;br&gt;public void setSize(num kilo)&lt;br&gt;&amp;nbsp; &amp;nbsp;size = kilo&lt;br&gt;&amp;nbsp; &amp;nbsp;price += size * 0.01&lt;br&gt;return&lt;br&gt;&lt;br&gt;public num getSize()&lt;br&gt;return size&lt;br&gt;endClass" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="745" y="547.5" width="240" height="570" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="13" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="C)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1040" y="520" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Start&lt;br&gt;&amp;nbsp; &amp;nbsp;Declarations&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; VoiceMessage message1&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; TextMessage message2&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; PictureMessage message3&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp;message1.setLength(1)&lt;br&gt;&amp;nbsp; &amp;nbsp;output &quot;Voice message: &quot;, message1.getLength(), &quot;minutes, Cost: &quot;, message1.price&lt;br&gt;&amp;nbsp; &amp;nbsp;message2.setWords(150)&lt;br&gt;&amp;nbsp; &amp;nbsp;output &quot;Text message: &quot;, message2.getWords(), &quot;words, Cost: &quot;, message2.price&lt;br&gt;&amp;nbsp; &amp;nbsp;message3.setSize(250)&lt;br&gt;&amp;nbsp; &amp;nbsp;output &quot;Picture message: &quot;, message3.getSize(), &quot;kilobytes, Cost: &quot;, message3.price&lt;br&gt;&lt;br&gt;Stop&amp;nbsp;&amp;nbsp;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="1090" y="405" width="485" height="225" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
